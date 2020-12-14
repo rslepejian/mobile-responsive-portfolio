@@ -1,10 +1,19 @@
 body {
-    background-image: url("paper.gif");
+    background-image: url("https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-color: #cccccc;
    }
 
-h1 {
-    color: teal;
+h3 {
+    color: white;
+    background-color: teal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+h5 {
+    margin: 0px auto;
+    margin-top: 15px;
 }
 
 .container {
@@ -12,11 +21,8 @@ h1 {
     background-color: white;
 }
 
-h3 {
-    color: white;
-    background-color: teal;
-    padding-top: 10px;
-    padding-bottom: 10px;
+h1 {
+    color: teal;
 }
 
 .float-left{
