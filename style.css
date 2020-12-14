@@ -1,0 +1,19 @@
+.float-left{
+    float: left;
+}
+
+#about-me-image {
+    margin: 15px;
+}
+
+@media screen and (max-width: 992px) {
+
+    }
+
+@media screen and (max-width: 768px) {
+
+    }
+
+@media screen and (max-width: 400px) {
+
+    }
