@@ -104,8 +104,14 @@ footer {
     }
     }
 
+@media screen and (max-width: 577px) {
+    #contact-form{
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 400px) {
-    #about-me{
+    #about-me {
         width: 350px;
     }
     #portfolio-block {
@@ -118,4 +124,4 @@ footer {
     .port-image{
         margin-top: 30px;
     }
-    }
+}
