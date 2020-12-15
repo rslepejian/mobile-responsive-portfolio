@@ -11,20 +11,26 @@
         <title>Contact</title>
     </head>
     <body>
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id = "navbar">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><h3>Raffi Lepejian</h3></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Left section with my name -->
+                <a class="navbar-brand" href="#"><h3>Raffi Lepejian</h3></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Links pushed to the right with ms-auto -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- Link to homepage -->
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">About</a>
                         </li>
+                        <!-- Link to portfolio page -->
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
+                        <!-- Link to contcat page (current page) -->
                         <li class="nav-item">
                             <a class="nav-link active" href="contact.html" tabindex="-1">Contact</a>
                         </li>
@@ -33,29 +39,36 @@
             </div>
         </nav>
 
+        <!-- Form section -->
         <div class = "clearfix">
             <div class = "container" id = "contact-form">
+                <!-- Form label 1 for name -->
                 <h1>Contact</h1>
                 <hr />
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Name</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
                 </div>
+                <!-- Form 2 for email -->
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
                 </div>
+                <!-- Form 3 for message -->
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here"></textarea>
                 </div>
+                <!-- Submit button -->
                 <div class="d-grid gap-2 d-md-block">
                     <button class="btn btn-primary" type="button">Submit</button>
                   </div>
             </div>
         </div>
 
+        <!-- Fixed position footer -->
         <footer>
+            <!-- Red dividing line at top of footer -->
             <div class = "foot-break"></div>
             <p>
                 Copyright &copy;

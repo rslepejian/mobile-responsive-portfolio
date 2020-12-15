@@ -25,17 +25,20 @@ This is the readme for the responsive portfolio of Raffi Lepejian. This project 
 
 This code snippet shows the css formatting that occurs when the window is thinner than 992 pixels. This snippet was included because the purpose of the excercise was to make a website that reformats itself dynamically in response to window size, and this snippet is closely aligned with that goal.
 ```css
+   /* Media query for window width 992px */
    @media screen and (max-width: 992px) {
+    /* resizes and spaces about me section at lower widths */
     #about-me{
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
         left: 15px;
     }
+    /* makes portfolio main content smaller to fit smaller window */
     #portfolio-block {
         width: 700px;
     }
-    }
+}
 
 ```
 

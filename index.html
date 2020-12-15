@@ -10,21 +10,28 @@
         <link rel = "stylesheet" href = "style.css">
         <title>Homepage</title>
     </head>
+    <!-- Navbar with links to portfolio and contact page -->
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id = "navbar">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><h3>Raffi Lepejian</h3></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- Left section with my name -->
+                <a class="navbar-brand" href="#"><h3>Raffi Lepejian</h3></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <!-- Navbar links -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- I addded ms-auto which moves these elements to the right -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- link to the current page -->
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">About</a>
                         </li>
+                        <!-- link to portfolio page-->
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
+                        <!-- link to contact page -->
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
                         </li>
@@ -32,11 +39,16 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Main conrent section, I added clearfix here to try and prevent my footer from overlapping my content -->
         <div class = "clearfix">
             <div class = "container" id = "about-me">
+                <!-- Header with section title -->
                 <h1>About Me</h1>
                 <hr />
+                <!-- Image from path with alt -->
                 <img src = "Assets/Images/sumi.jpg" class = "float-left" id = "about-me-image" alt = "Sumi, black lab">
+                <!-- Personal information -->
                 <p class = "text wrap">
                     I'm Raffi, a recent graduate of Whitman College with a combined degree in Economics, Mathematics, and Statistics. I decided to do the Berkeley web development boot camp because I enjoyed the coding I did in college and because I thought it would improve my career outlook. My prior experience in coding includes a semester of Python and a semester of C++ in college. 
                 </p>
@@ -49,7 +61,9 @@
             </div>
         </div>
         
+        <!-- Fixed footer with copyright thingy -->
         <footer>
+            <!-- Red dividing line at top of footer -->
             <div class = "foot-break"></div>
             <p>
                 Copyright &copy;

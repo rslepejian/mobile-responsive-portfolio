@@ -1,18 +1,22 @@
+/* clearfix added to try and prevent footer from overlapping content */
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
 }
-  
+
+/* navbar formatting so that it covers content rather than being covered */
 #navbar {
     z-index: 2;
 }
 
+/* added background image and made body take up whole page */
 body {
     background-image: url("https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     width: 100%;
    }
 
+   /* Color formatting and padding for my name in navbar */
 h3 {
     color: white;
     background-color: teal;
@@ -21,11 +25,7 @@ h3 {
     margin: 0 auto;
 }
 
-h5 {
-    margin: 0px auto;
-    margin-top: 15px;
-}
-
+/* spacing and positioning for the main content section on each page */
 .container {
     margin-left: 0;
     margin-bottom: 100px;
@@ -38,23 +38,25 @@ h5 {
     background-color: white;
 }
 
+/* text resizing for personal info on homepage */
 p {
     font-size: 20px;
 }
 
+/* text recoloring for header/title of main content on all pages */
 h1 {
     color: teal;
 }
 
-.float-left{
-    float: left;
-}
-
+/* image float left to make text wrap around image in about me page */
+/* sizing and spacing image to fit in about-me section */
 #about-me-image {
+    float: left;
     margin: 15px;
     max-width: 300px;
 }
 
+/* adds the red separator at the top of the footer */
 .foot-break{
     position: relative;
     bottom: 15px;
@@ -62,70 +64,81 @@ h1 {
     background-color: red;
 }
 
+/* positions fixed footer and makes it stretch across whole screen, aligns text, sizes vertically */
 footer {
     height: 60px;
     padding: 15px 0px 5px 0px;
     text-align: center;
     position: fixed;
-    bottom: -5px;
+    bottom: 0px;
     color: darkgrey;
     background-color: grey;
     width: 100%;
 }
 
+/* sets margins for portfolio images */
 .port-image{
-    /* max-width: 300px; */
     margin-top: 30px;
     margin-right: 0px;
     
 }
 
+/* defines max width for the main content on portfolio page */
 #portfolio-block {
     max-width: 800px;
 }
 
+/* Media query for window width 992px */
 @media screen and (max-width: 992px) {
+    /* resizes and spaces about me section at lower widths*/
     #about-me{
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
         left: 15px;
     }
+    /* makes portfolio main content smaller to fit smaller window */
     #portfolio-block {
         width: 700px;
     }
-    }
+}
 
+/* Media Query for window width < 768 x */
 @media screen and (max-width: 767px) {
+    /* aboutme content made smaller to fit */
     #about-me{
         width: 500px;
     }
+    /* portfolio content made smaller to fit */
     #portfolio-block {
         width: 500px;
     }
     }
-
+/* Media query at size smaller than 576 specifically to fix navbar breaking on contactform page between widths of 400 and 576 */
+/* Contact form made smaller to avoid navbar resizing issues */
 @media screen and (max-width: 577px) {
     #contact-form{
         width: 350px;
     }
 }
 
+/* Media query at width = 400 px */
 @media screen and (max-width: 400px) {
+    /* aboutme content made smaller to fit */
     #about-me {
         width: 350px;
     }
+    /* aboutme image made smaller to fit */
     #about-me-image {
         max-width: 200px;
     }
+    /* portoflio content made smaller to fit */
+    /* margin and padding altered for symmetry at width 400 */
     #portfolio-block {
         margin-right: 0px;
         left: 30px;
         width: 340px;
         margin: 0px;
         padding: 20px;
-    }
-    .port-image{
-        margin-top: 30px;
     }
 }
