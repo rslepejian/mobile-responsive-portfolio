@@ -103,14 +103,14 @@ footer {
         left: 15px;
     }
     #portfolio-block {
-        left: 5px;
-        width: 370px;
+        margin-right: 0px;
+        left: 30px;
+        width: 340px;
         margin: 0px;
-        padding: 10px;
+        padding: 20px;
     }
     .port-image{
         /* width: 100%; */
-        margin: 0px;
         margin-top: 30px;
     }
     }
