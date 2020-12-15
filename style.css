@@ -1,5 +1,16 @@
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+  
+#navbar {
+    z-index: 2;
+}
+
 body {
     background-image: url("https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
    }
 
 h3 {
@@ -17,6 +28,7 @@ h5 {
 
 .container {
     margin-left: 0;
+    margin-bottom: 100px;
     left: 30px;
     height:auto;
     position: absolute;
@@ -50,12 +62,11 @@ h1 {
 }
 
 footer {
+    height: 60px;
     padding: 15px 0px 5px 0px;
     text-align: center;
-    margin: 0 auto;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: -5px;
     color: darkgrey;
     background-color: grey;
     width: 100%;
@@ -74,12 +85,10 @@ footer {
 
 @media screen and (max-width: 992px) {
     #about-me{
-        margin-left: 0;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
         left: 15px;
-        right: 30px;
     }
     #portfolio-block {
         width: 7000px;
@@ -88,9 +97,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     #about-me{
-        margin-left: 0;
         width: 500px;
-        left: 15px;
     }
     #portfolio-block {
         width: 500px;
@@ -99,8 +106,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     #about-me{
-        width: 300px;
-        left: 15px;
+        width: 350px;
     }
     #portfolio-block {
         margin-right: 0px;
@@ -110,7 +116,6 @@ footer {
         padding: 20px;
     }
     .port-image{
-        /* width: 100%; */
         margin-top: 30px;
     }
     }
