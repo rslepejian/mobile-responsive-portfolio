@@ -61,6 +61,17 @@ footer {
     width: 100%;
 }
 
+.port-image{
+    max-width: 300px;
+    margin-top: 30px;
+    margin-right: 0px;
+    
+}
+
+#portfolio-block {
+    max-width: 800px;
+}
+
 @media screen and (max-width: 992px) {
     .container{
         margin-left: 0;
@@ -85,5 +96,14 @@ footer {
         width: 300px;
         left: 15px;
         right: 30px;
+    }
+    #portfolio-block {
+        left: 0px;
+        width: 370px;
+        margin: 0px;
+    }
+    .port-image{
+        margin: 0px;
+        margin-top: 30px;
     }
     }
