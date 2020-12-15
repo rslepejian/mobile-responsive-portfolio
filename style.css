@@ -91,11 +91,11 @@ footer {
         left: 15px;
     }
     #portfolio-block {
-        width: 7000px;
+        width: 700px;
     }
     }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #about-me{
         width: 500px;
     }
