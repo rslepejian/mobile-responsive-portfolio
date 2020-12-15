@@ -17,8 +17,18 @@ h5 {
 }
 
 .container {
-    margin-top: 50px;
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    padding: 50px;
+    padding-top: 25px;
+    margin-bottom: 150px;
     background-color: white;
+    margin-right: 15px;
+}
+
+p {
+    font-size: 20px;
 }
 
 h1 {
@@ -31,6 +41,25 @@ h1 {
 
 #about-me-image {
     margin: 15px;
+}
+
+.foot-break{
+    position: relative;
+    bottom: 15px;
+    height: 5px;
+    background-color: red;
+}
+
+footer {
+    padding: 15px 0px 5px 0px;
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: darkgrey;
+    background-color: grey;
+    width: 100%;
 }
 
 @media screen and (max-width: 992px) {
