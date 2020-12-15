@@ -1,6 +1,5 @@
 body {
     background-image: url("https://images.pexels.com/photos/1435752/pexels-photo-1435752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-color: #cccccc;
    }
 
 h3 {
@@ -17,14 +16,12 @@ h5 {
 }
 
 .container {
-    position: absolute;
-    left: 40px;
+    position: relative;
+    margin-left: 40px;
     top: 160px;
     padding: 50px;
     padding-top: 25px;
-    margin-bottom: 150px;
     background-color: white;
-    margin-right: 15px;
 }
 
 p {
@@ -63,13 +60,22 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-
+    .container {
+        width: 750px;
+    }
     }
 
 @media screen and (max-width: 768px) {
-
+    .container {
+        width: 500px;
+    }
     }
 
 @media screen and (max-width: 400px) {
-
+    .container {
+        position: relative;
+        top: 50;
+        width: 300px;
+        margin-bottom: 100px;
+    }
     }
