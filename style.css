@@ -62,7 +62,7 @@ footer {
 }
 
 .port-image{
-    max-width: 300px;
+    /* max-width: 300px; */
     margin-top: 30px;
     margin-right: 0px;
     
@@ -95,14 +95,15 @@ footer {
     .container{
         width: 300px;
         left: 15px;
-        right: 30px;
     }
     #portfolio-block {
-        left: 0px;
+        left: 5px;
         width: 370px;
         margin: 0px;
+        padding: 10px;
     }
     .port-image{
+        width: 100%;
         margin: 0px;
         margin-top: 30px;
     }
