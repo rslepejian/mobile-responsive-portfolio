@@ -73,7 +73,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    .container{
+    #about-me{
         margin-left: 0;
         padding-left: 10px;
         padding-right: 10px;
@@ -81,18 +81,24 @@ footer {
         left: 15px;
         right: 30px;
     }
+    #portfolio-block {
+        width: 7000px;
+    }
     }
 
 @media screen and (max-width: 768px) {
-    .container{
+    #about-me{
         margin-left: 0;
         width: 500px;
         left: 15px;
     }
+    #portfolio-block {
+        width: 500px;
+    }
     }
 
 @media screen and (max-width: 400px) {
-    .container{
+    #about-me{
         width: 300px;
         left: 15px;
     }
@@ -103,7 +109,7 @@ footer {
         padding: 10px;
     }
     .port-image{
-        width: 100%;
+        /* width: 100%; */
         margin: 0px;
         margin-top: 30px;
     }
