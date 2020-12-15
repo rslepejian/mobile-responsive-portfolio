@@ -16,9 +16,10 @@ h5 {
 }
 
 .container {
+    margin-left: 0;
+    left: 30px;
     height:auto;
     position: absolute;
-    margin-left: 40px;
     top: 160px;
     padding: 50px;
     padding-top: 25px;
@@ -62,7 +63,7 @@ footer {
 
 @media screen and (max-width: 992px) {
     .container{
-        margin: auto;
+        margin-left: 0;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
@@ -73,6 +74,9 @@ footer {
 
 @media screen and (max-width: 768px) {
     .container{
+        margin-left: 0;
+        width: 500px;
+        left: 15px;
     }
     }
 
