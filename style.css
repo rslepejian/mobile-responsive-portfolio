@@ -16,7 +16,8 @@ h5 {
 }
 
 .container {
-    position: relative;
+    height:auto;
+    position: absolute;
     margin-left: 40px;
     top: 160px;
     padding: 50px;
@@ -60,22 +61,25 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-    .container {
-        width: 750px;
+    .container{
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        left: 15px;
+        right: 30px;
     }
     }
 
 @media screen and (max-width: 768px) {
-    .container {
-        width: 500px;
+    .container{
     }
     }
 
 @media screen and (max-width: 400px) {
-    .container {
-        position: relative;
-        top: 50;
+    .container{
         width: 300px;
-        margin-bottom: 100px;
+        left: 15px;
+        right: 30px;
     }
     }
